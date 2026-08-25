@@ -4,11 +4,12 @@ Repositório com exercícios, práticas e projetos desenvolvidos durante minha
 formação em ADS, com foco na construção de base técnica sólida e aplicação 
 no desenvolvimento de um sistema autoral de governança hoteleira.
 
-Baseado nos cursos do professor Gustavo Guanabara — Curso em Vídeo.
+Baseado nos cursos do professor Gustavo Guanabara — Curso em Vídeo, e no 
+curso de Flutter da comunidade Flutterando.
 
 ### Atualmente estudando:
 
-- HTML/CSS — estrutura e estilização web
+- Flutter/Dart — desenvolvimento mobile multiplataforma
 
 ---
 
@@ -18,6 +19,8 @@ Baseado nos cursos do professor Gustavo Guanabara — Curso em Vídeo.
 - Java JDK 25
 - Apache NetBeans IDE 29
 - Visual Studio Code
+- Flutter SDK 3.47 (canal stable)
+- Android Studio (SDK e emulador Android)
 - Git/GitHub
 
 ### Banco de Dados e Ambiente Local
@@ -26,6 +29,7 @@ Baseado nos cursos do professor Gustavo Guanabara — Curso em Vídeo.
 - XAMPP
 
 ### Design e Edição de Imagens
+- Figma
 - GIMP 3.2.4
 
 ---
@@ -232,6 +236,34 @@ Exercícios organizados na pasta `HTML-CSS/`
 | Cap 16 | Box model, shorthands, grouping tags semânticas, sombras, vértices arredondados e bordas com imagem | ✅ |
 | Cap 17 | Projeto do zero — wireframe, paleta, tipografia, variáveis CSS, responsividade e estilização completa | ✅ |
 
+---
+
+## 📱 Flutter
+
+Exercícios organizados na pasta `Flutter/`
+
+* Aula 01 — Configuração do ambiente: instalação do Flutter SDK, Android Studio, 
+extensões do VS Code e validação com `flutter doctor`
+* Aula 02 — Primeiro app: estrutura de um projeto Flutter, `main.dart`, 
+árvore de widgets e hot reload
+
+> Seção em construção — novos exercícios serão adicionados conforme o avanço do curso.
+
+Prática desenvolvida utilizando:
+
+* Flutter SDK 3.47 (canal stable)
+* Dart
+* Visual Studio Code
+* Android Studio (SDK e emulador)
+
+Objetivos desta etapa:
+
+* compreender a arquitetura do Flutter e o conceito de widgets;
+* dominar o ciclo de desenvolvimento com hot reload;
+* construir interfaces mobile responsivas;
+* preparar a migração do Hotel Governance System (HGS) para aplicativo mobile.
+
+---
 
 ## 📁 Organização do Repositório
 
@@ -241,14 +273,14 @@ estudos-ads/
 ├── Java POO/
 ├── MySQL/
 ├── JDBC/
-└── HTML-CSS/ ← em andamento
+├── HTML-CSS/
+└── Flutter/ ← em andamento
 ```
-​
 
 ## 📂 Como abrir os projetos
 
 Cada aula está organizada em sua própria pasta dentro de `Java Basico/`, 
-`Java POO/`, `MySQL/`, `JDBC/` ou `HTML-CSS/` 
+`Java POO/`, `MySQL/`, `JDBC/`, `HTML-CSS/` ou `Flutter/`
 
 Para abrir no NetBeans: **File → Open Project → selecione a pasta da aula desejada**
 
@@ -272,5 +304,18 @@ Os scripts `.sql` ficam organizados na pasta `MySQL/` e podem ser:
 Os exercícios JDBC ficam organizados na pasta `JDBC/` e podem ser abertos diretamente no Apache NetBeans.
 
 ### Arquivos HTML e CSS
+
 Os arquivos ficam organizados na pasta `HTML-CSS/` e podem ser abertos 
 em qualquer navegador ou editor de texto.
+
+### Projetos Flutter
+
+Os exercícios ficam organizados na pasta `Flutter/`, cada um em seu próprio projeto.
+
+Para executar:
+
+```bash
+cd Flutter/nome-do-exercicio
+flutter pub get
+flutter run
+```
